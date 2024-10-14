@@ -4,8 +4,7 @@ body {
 }
 
 .contentDiv {
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;    
 }
 
 .navBar {
@@ -21,16 +20,17 @@ body {
     color: black;
 }
 
-.recipe-list {
+.flex-container {
     display: flex;            
     justify-content:space-around;  
+    flex-direction:row;
     list-style-type: none;    
     padding: 0;
     margin: 0;
     gap: 20px;                
 }
 
-.recipe-list li {
+.flex-container li {
     display: flex;
     flex-direction: column;   
     align-items: center;      
@@ -38,7 +38,7 @@ body {
     gap: 10px;               
 }
 
-.recipe-list img {
+.flex-container img {
     border-radius: 8px;  
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }
