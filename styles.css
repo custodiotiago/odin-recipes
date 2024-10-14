@@ -1,0 +1,17 @@
+body {
+    background-color: beige;
+}
+
+.contentDiv {
+    background-color: white;
+}
+
+#navBar {
+    background-color:darksalmon;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+#navItem {
+    margin-right: 40px;
+}
